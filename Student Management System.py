@@ -18,4 +18,36 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
     print("Press:5 to Update Student's Info")
     print("Press:6 to Exit")
 
+    e = int(input("\nEnter your choise : "))
+
+    if(e==1):                   # For adding new student
+        print("You choosed to Add a Student\n")
+
+        print("Please enter the following information")
+        i=input("Roll no : ")
+        r.append(i)
+        na=input("Student Name : ")
+        n.append(na)
+        br=input("Branch : ")
+        b.append(br)
+        ph=input("Phone Number : ")
+        p.append(ph)
+        ad=input("Address : ")
+        a.append(ad)
+        gr=input("Grade : ")
+        g.append(gr)
+        
+        print("\nData Entered Sucessfully\n")
+
+        print("If you want to exit then press 1")
+        y=int(input("Else press 0 to return to main menu : "))
+        print("\n\n")
+        
+        if(y==1):
+            print("\nThankYou")
+            break
+        else:
+            continue
+
+
     
