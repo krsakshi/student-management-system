@@ -50,4 +50,20 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
             continue
 
 
-    
+    elif(e==2):                # For specific student details
+        print("You choosed to View a Students Details \n")
+        
+        i = int(input("Enter roll number of student whose details you want to view : "))
+        print("\nStudent Name : ", n[i-1])
+        print("Roll no : ", r[i-1])
+        print("Branch : ", b[i-1])
+        print("Phone Number : ", p[i-1])
+        print("Address : ", a[i-1])
+        print("Grade :", g[i-1])
+        print("\n")
+
+        print("If you want to exit then press 1")
+        y=int(input("Else press 0 to return to main menu : "))
+        print("\n\n")
+        
+        
