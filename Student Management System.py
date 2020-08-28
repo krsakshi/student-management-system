@@ -66,4 +66,9 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
         y=int(input("Else press 0 to return to main menu : "))
         print("\n\n")
         
-        
+        if(y==1):
+            print("\nThankYou")
+            break
+        else:
+            continue
+
