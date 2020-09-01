@@ -72,3 +72,31 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
         else:
             continue
 
+
+        
+    elif(e==3):                 # For viewing all student details
+        print("You choosed to View all Students Details \n")
+        lr=int(input("Enter last roll number : "))
+        print("\n\n")
+        
+        for i in range(0,lr):
+
+            print("Student Name : ", n[i])
+            print("Roll no : ", r[i])
+            print("Branch : ", b[i])
+            print("Phone Number : ", p[i])
+            print("Address : ", a[i])
+            print("Grade :", g[i])
+            print("\n")
+
+        print("If you want to exit then press 1")
+        y=int(input("Else press 0 to return to main menu : "))
+        print("\n\n")
+        
+        if(y==1):
+            print("\nThankYou")
+            break
+        else:
+            continue
+
+    
