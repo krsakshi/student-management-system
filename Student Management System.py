@@ -99,4 +99,9 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
         else:
             continue
 
-    
+    elif(e==4):                 # For deleting a student details
+        print("You choosed to Delete a Student record \n")
+
+        i = int(input("Enter roll number of student whose details you want to delete : "))
+        
+        
