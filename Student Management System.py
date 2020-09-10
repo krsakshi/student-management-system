@@ -104,4 +104,24 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
 
         i = int(input("Enter roll number of student whose details you want to delete : "))
         
+        n[i-1]=None
+        r[i-1]=None
+        b[i-1]=None
+        p[i-1]=None
+        a[i-1]=None
+        g[i-1]=None
+        print("\nData Deleted Sucessfully\n")
+
+        print("If you want to exit then press 1")
+        y=int(input("Else press 0 to return to main menu : "))
+        print("\n\n")
         
+        if(y==1):
+            print("\nThankYou")
+            break
+        else:
+            continue
+    
+
+
+    
