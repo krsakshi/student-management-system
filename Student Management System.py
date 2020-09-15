@@ -124,4 +124,31 @@ while(c==1):      # Loop will continue until the value of c not equal to 1 (Help
     
 
 
-    
+    elif(e==5):                 # For updating student details.
+        print("You choosed to Update Student's Info\n")
+        
+        i = int(input("Enter roll number of student whose details you want to update : "))
+        n[i-1]=input("Student Name : ")
+        r[i-1]=input("Roll no : ")
+        b[i-1]=input("Branch : ")
+        p[i-1]=input("Phone Number : ")
+        a[i-1]=input("Address : ")
+        g[i-1]=input("Grade : ")
+        print("\nData Updated Sucessfully\n")
+
+        print("If you want to exit then press 1")
+        y=int(input("Else press 0 to return to main menu : "))
+        print("\n\n")
+        
+        if(y==1):
+            print("\nThankYou")
+            break
+        else:
+            continue
+
+
+
+    elif(e==6):                 # For exiting the application.
+        print("\nThankYou")
+        print("Exiting\n")
+        c=0
